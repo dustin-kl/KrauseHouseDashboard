@@ -120,7 +120,7 @@ export default function Home() {
       </div>
 
       <main className={styles.main}>
-        <div
+        {/* <div
           style={{
             height: "80px",
             fontSize: "10px",
@@ -141,7 +141,7 @@ export default function Home() {
           >
             Refresh
           </button>
-        </div>
+        </div> */}
         <div
           style={{
             height: "1150px",
