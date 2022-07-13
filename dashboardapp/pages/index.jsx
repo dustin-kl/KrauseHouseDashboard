@@ -6,21 +6,21 @@ import { withStyles, makeStyles } from "@material-ui/core/styles";
 import myData from '../../data/ranking_persons.json';
 
 
-const useStyles = makeStyles({
-  root: {
-    backgroundColor: "#F4EFE9",
-  },
-  gradtext: {
-    backgroundImage: "linearGradient(to bottom, #FF005B, #FFD4A9)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent",
-  },
-});
+// const useStyles = makeStyles({
+//   root: {
+//     backgroundColor: "#F4EFE9",
+//   },
+//   gradtext: {
+//     backgroundImage: "linearGradient(to bottom, #FF005B, #FFD4A9)",
+//     WebkitBackgroundClip: "text",
+//     WebkitTextFillColor: "transparent",
+//   },
+// });
 
 
 export default function Home() {
 
-  const classes = useStyles();
+  // const classes = useStyles();
 
   const columns = [
     {
@@ -150,13 +150,13 @@ export default function Home() {
             width: "80%",
           }}
         >
-          <DataGrid
+          {/* <DataGrid
             className={classes.root}
             rows={rows}
             columns={columns}
             pageSize={20}
             rowsPerPageOptions={[20]}
-          />
+          /> */}
         </div>
       </main>
 
