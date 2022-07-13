@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { DataGrid } from "@material-ui/data-grid";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
-import myData from '../../data/ranking_persons.json';
+import myData from '../data/ranking_persons.json';
 
 
 // const useStyles = makeStyles({
