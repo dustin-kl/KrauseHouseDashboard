@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { DataGrid } from "@material-ui/data-grid";
-import { withStyles, makeStyles } from "@material-ui/core/styles";
+//import { DataGrid } from "@material-ui/data-grid";
+//import { withStyles, makeStyles } from "@material-ui/core/styles";
 import myData from '../ranking_persons.json';
 
 
