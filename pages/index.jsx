@@ -16,6 +16,7 @@ import myData from '../ranking_persons.json';
 //     WebkitTextFillColor: "transparent",
 //   },
 // });
+//jo
 
 
 export default function Home() {
